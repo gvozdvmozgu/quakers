@@ -1,0 +1,11 @@
+[workspace]
+members = [".", "quakers"]
+
+[package]
+name = "quakers-runner"
+version = "0.1.0"
+edition = "2024"
+
+[build-dependencies]
+bootloader = "0.11"
+quakers = { path = "quakers", artifact = "bin", target = "x86_64-unknown-none" }

@@ -1,0 +1,9 @@
+[package]
+name = "quakers"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bootloader_api = "0.11"
+pc-keyboard = "0.8"
+x86_64 = "0.15.2"
